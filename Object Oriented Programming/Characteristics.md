@@ -4,7 +4,7 @@
 
 ex) 부모 : 커피, 자식 : 아메리카노, 카페라떼
 
-특징
+키워드
 
 오버라이딩 : 상속 받은 메소드를 재정의
 
@@ -20,26 +20,36 @@ ex) 부모 : 커피, 자식 : 아메리카노, 카페라떼
 
 외부에서 상태를 변화 시킬 수 없으며 외부로 노출되어 있는 행동을 통해서만 상태를 변화 시킬 수 있다.
 
-특징
+키워드
 
 접근 제어자 : public, protected, default, private
 
 </br>
 
-## 3. 추상화 Abstraction
+## 3. 정보은닉화 Information Hiding
+
+캡슐화에서 가장 중요한 개념으로, 다른 객체에게 자신의 정보를 숨기고 자신의 연산만을 통하여 접근을 허용하는 것
+
+키워드
+
+접근 제어자 : public, protected, default, private
+
+</br>
+
+## 4. 추상화 Abstraction
 
 : 공통 특징을 뽑아 하나의 클래스,인터페이스로 표현하는 것
 
-특징
+키워드
 
 class, extends , interface, implements
 
 </br>
 
-## 4. 상속성 Inheritance
+## 5. 상속성 Inheritance
 
 하위 클래스가 상위 클래스의 멤버를 물려받는 것
 
-특징
+키워드
 
 class, extends , interface, implements

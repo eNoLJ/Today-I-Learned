@@ -1,6 +1,6 @@
 # Apple Silicon M1 Mac Docker와 MySQL 설치
 
-## 시작 전 알아두면 편한 docker 명령어
+### 시작 전 알아두면 편한 docker 명령어
 
 > docker images : 이미지 보기
 >

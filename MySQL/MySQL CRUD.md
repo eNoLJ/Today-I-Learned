@@ -1,6 +1,6 @@
 ## MySQL CRUL 구문
 
-### **Crete**
+### **Create**
 
 ```SQL
 insert into table (column1, column2, column3) values (value1, value2, value3);

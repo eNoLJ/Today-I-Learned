@@ -69,3 +69,53 @@
 > GET [request-uri] HTTP/1.1
 >
 > Host:[Hostname] or [IP]
+
+</br>
+
+### **OPTIONS**
+
+웹서버에서 지원되는 메소드의 종류 확인
+
+전송형태
+
+> GET [request-uri] HTTP/1.1
+>
+> Host:[Hostname] or [IP]
+
+</br>
+
+### **HEAD**
+
+헤더 정보 요청, GET과 유사하나 서버는 헤더 외에 어떠한 정보도 보내지 않는다.
+
+웹서버 정보확인, 헬스체크, 버전확인, 최종 수정일자 확인 등
+
+전송형태
+
+> GET [request-uri] HTTP/1.1
+>
+> Host:[Hostname] or [IP]
+
+</br>
+
+### **CONNECT**
+
+프락시 기능을 요청
+
+전송형태
+
+> GET [request-uri] HTTP/1.1
+>
+> Host:[Hostname] or [IP]
+
+</br>
+
+### **TRACE**
+
+원격지 서버에 Loopback(루프백) 메시지를 호출
+
+전송형태
+
+> GET [request-uri] HTTP/1.1
+>
+> Host:[Hostname] or [IP]

@@ -1,20 +1,22 @@
 ## **JRE (Java Runtime Enviroment)**
 
-- JVM + 라이브러리
+- JVM + 클래스라이브러리(Java API)
 - JRE는 JVM과 JVM이 자바 프로그램을 동작 시킬 때 필요한 라이브러리를 포함하고 있다. 즉, JRE는 JVM의 실행 환경을 구현한 것이라 볼 수 있다.
 
 </br>
 
 ## **JDK (Java Development Kit)**
 
-- JRE + 개발도구
-- JDK는 JRE와 Java 개발에 필요한 개발 도구(javac, javap 등)가 포함되어 있다. 즉, JRE는 실행만 한다면 JDK는 개발까지 포함한다.
+- JRE + 개발도구(javac.exe, java.exe, javap.exe 등)
+- JDK는 JRE와 Java 개발에 필요한 개발 도구가 포함되어 있다. 즉, JRE는 실행만 한다면 JDK는 개발까지 포함한다.
 
 </br>
 
 ## **JVM (Java Virtual Machine)**
 
-JVM은 크게 3가지 구성되어 있다.
+JVM은 자바가 운영체제로부터 독립적일 수 있게 만드는데 기여를 한다. JVM은 일종의 에뮬레이터로 자바는 운영체제가 아닌 JVM하고만 통신을 하고 JVM은 자바를 운영체제가 이해할 수 있도록 변환하여 전달한다. 때문에 JVM자체는 운영체제에 종속적이게 되고 운영체제별로 다른 버전의 JVM이 제공되고 있다.
+
+JVM은 크게 3가지로 구성되어 있다.
 
 ### **1. Class Loader Subsystem**
 
@@ -101,6 +103,8 @@ class loader를 통해 전달된 정보들을 각각의 메모리에 저장한�
   interpreter가 반복되는 코드를 발견하면 JIT 컴파일러는 반복되는 코드를 native Code로 바꾼다. 그렇게 되면 반복된 byte code는 native Code로 바뀌어 있기 때문에 interpreter가 바로 사용할 수 있게 된다.
 
 - Garbage Collection
+
+  Garbage Collector가 자동으로 메모리를 관리해주기 때문에 프로그래머는 따로 메모리 관리를 하지 않아도 된다.
 
   힙 영역에 있어서 필요 없어진 정보들을 처리한다.
 

@@ -2,7 +2,7 @@
 
 ## 1. 리전 설정
 
-![image](https://user-images.githubusercontent.com/63284310/130569686-e29d2eef-89f4-42fd-99c2-8f8daf543886.png)
+<img width="400" alt="스크린샷 2021-08-27 오후 4 01 58" src="https://user-images.githubusercontent.com/63284310/130569686-e29d2eef-89f4-42fd-99c2-8f8daf543886.png">
 
 - 리전은 서울로 설정
 
@@ -167,7 +167,7 @@
 
 </br>
 
-## EC2 접속
+## 13. EC2 접속
 
 ![image](https://user-images.githubusercontent.com/63284310/130578004-105edb69-86ff-421d-989e-bbf3b2b92aa6.png)
 
